@@ -1,0 +1,12 @@
+import time
+from random import choice
+
+    #список
+fortune = ['name1', 'name2', 'name3']
+
+input("Вы готовы? (Нажмите ENTER для продолжения...)")
+
+time.sleep(3)
+
+    #вывести
+print(choice(fortune))
